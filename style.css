@@ -1,0 +1,69 @@
+.container {
+    width: 80%; /* La largeur de la zone de contenu est de 80% de la largeur de son conteneur parent */
+  }
+  
+  .item {
+    width: 50%; /* Chaque élément occupe 50% de la largeur de son conteneur parent */
+  }
+
+p {
+  font-size: 16px; /* Taille de police de base */
+  line-height: 1.5; /* Hauteur de ligne de base */
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 14px; /* Réduire la taille de la police pour les écrans plus petits */
+  }
+}  
+
+.st-emotion-cache-z5fcl4{
+    padding: 0rem 1.5rem 10rem;
+    z-index: 1;
+}
+
+.st-emotion-cache-97ja1j{
+    z-index: -1;
+}
+.st-emotion-cache-k7vsyb a{
+    visibility: hidden;
+}
+.st-emotion-cache-1ykxg5d{
+    visibility: hidden;
+}
+.st-emotion-cache-10trblm{
+    text-align: center;
+}
+img {
+    max-width: 100%; /* L'image ne peut pas dépasser la largeur de son conteneur parent */
+    height: auto;
+    vertical-align: middle;
+    border-radius: 30px 10px 70px 10px;
+}
+
+
+.st-emotion-cache-10upysa, .st-emotion-cache-10upysa:active {
+  position: absolute;
+  /* width: 100%; */
+  /* height: 100%; */
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  min-height: 38.4px;
+  margin: 0px;
+  line-height: 1.6;
+  color: inherit;
+  width: auto;
+  user-select: none;
+  background-color: None;
+  border: None;
+  width: 100%;
+  height: 85vh;
+  background: none;
+  z-index: 3;
+}
