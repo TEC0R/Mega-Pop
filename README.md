@@ -1,6 +1,6 @@
 ## ASMT Projet 2 : Création d’une application de recommandation de films via IMDB et TMDB sur streamlit. 
 
-Cinéma MEGA Pop 
+Cinéma Mega Pop 
 
 ####  description: 
 
