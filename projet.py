@@ -602,6 +602,3 @@ elif page_selection == "Contributeur":
     page_contributeur()
 elif page_selection == "Inspi":
     inspi()
-
-
-
