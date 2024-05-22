@@ -8,6 +8,7 @@ Bienvenue dans notre Application de Recommandation de Films, conçue pour vous a
 
 Documentation d'utilisation - Application de Recommandation de Films
 
+![page_acceuil](picture/page_acceuil.png)
 
 ### Page d'Accueil
 <strong>1. Recherche de Films</strong>.</p>
@@ -33,7 +34,7 @@ Voici ce que vous y trouverez :
 <p><b>Logo :</b>  Situé à gauche de la barre de recherche, notre logo vous rappellera l'identité de notre application.
 <p><b>Films du Moment : </b> Juste en dessous de la barre de recherche, vous verrez trois blocs présentant les films du moment. Chaque bloc contient le nom du film, son affiche, l'année de sortie, la note sous forme d'étoiles et un synopsis concis pour vous donner un aperçu du film.
 
-
+![page_film](picture/page_film.png)
 
 ### Accès à la Page Film
 
@@ -81,6 +82,9 @@ Utilisation Recommandée:
 Utilisez la section principale pour obtenir des informations détaillées sur un film spécifique.
 Explorez la liste des acteurs et actrices pour en apprendre davantage sur les talents impliqués dans la production du film.
 Parcourez les suggestions de films similaires pour découvrir de nouveaux titres correspondant à vos goûts cinématographiques.
+
+![page_contributeur](picture/page_contributeur.png)
+
 
 ### Accès à la Page Acteur
 

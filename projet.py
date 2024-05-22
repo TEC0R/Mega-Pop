@@ -468,6 +468,7 @@ def page_film():
 #------------------------------------------------------------------------------------
 
 def page_contributeur():
+    st.title(" ")
     filtre_contri_name = df_contributeur[df_contributeur['primaryName'] == search_actor]
 
     photo, infos = st.columns([2,3])
