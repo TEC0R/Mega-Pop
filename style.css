@@ -1,3 +1,13 @@
+.stApp {
+  background-color: #000000;
+  color: #ffffff;
+}
+.css-17eq0hr {
+  background-color: #3d3834;
+}
+.st-ba {
+  background-color: #d10e36;
+}
 .container {
     width: 80%; /* La largeur de la zone de contenu est de 80% de la largeur de son conteneur parent */
   }
