@@ -1,4 +1,4 @@
-.stApp {
+.stApp, h2 {
   background-color: #000000;
   color: #ffffff;
 }
@@ -57,3 +57,4 @@ img, svg {
 .st-emotion-cache-1yiq2ps {
   top: -20vh;
 }
+
