@@ -1,5 +1,8 @@
-.stApp, h2, h3, .st-c1, p {
+.stApp, h2, h3, .st-c1 {
   background-color: #000000;
+  color: #ffffff;
+}
+p{
   color: #ffffff;
 }
 .css-17eq0hr {
