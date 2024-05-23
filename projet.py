@@ -290,18 +290,12 @@ def page_accueil():
     st.header("Les films du moment")
     st.header("") 
 
-    titre1, titre2, titre3 = st.columns(3)
-    with titre1:
-        st.subheader(f"{filtre_film_annee['title'].iloc[film_1]} ({filtre_film_annee['startYear'].iloc[film_1]})")
-    with titre2:
-        st.subheader(f"{filtre_film_annee['title'].iloc[film_2]} ({filtre_film_annee['startYear'].iloc[film_2]})")
-    with titre3:
-        st.subheader(f"{filtre_film_annee['title'].iloc[film_3]} ({filtre_film_annee['startYear'].iloc[film_3]})")
-
     st.title(" ")
     film1, film2, film3 = st.columns(3)
 
     with film1:
+        st.subheader(f"{filtre_film_annee['title'].iloc[film_1]} ({filtre_film_annee['startYear'].iloc[film_1]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_annee['poster_path'].iloc[film_1], width=140)
 
@@ -312,6 +306,8 @@ def page_accueil():
             st.write(f"Note : {rating(filtre_film_annee['averageRating'].iloc[film_1])}")
         st.write(filtre_film_annee['overview'].iloc[film_1])
     with film2:
+        st.subheader(f"{filtre_film_annee['title'].iloc[film_2]} ({filtre_film_annee['startYear'].iloc[film_2]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_annee['poster_path'].iloc[film_2], width=140)
 
@@ -322,6 +318,8 @@ def page_accueil():
             st.write(f"Note : {rating(filtre_film_annee['averageRating'].iloc[film_2])}")
         st.write(filtre_film_annee['overview'].iloc[film_2])
     with film3:
+        st.subheader(f"{filtre_film_annee['title'].iloc[film_3]} ({filtre_film_annee['startYear'].iloc[film_3]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_annee['poster_path'].iloc[film_3], width=140)
 
@@ -422,17 +420,11 @@ def page_film():
     st.header("Recommandations")
     st.header("") 
 
-    titre_reco1, titre_reco2, titre_reco3 = st.columns(3)
-    with titre_reco1:
-        st.subheader(f"{filtre_film_reco['title'].iloc[0]} ({filtre_film_reco['startYear'].iloc[0]})")
-    with titre_reco2:
-        st.subheader(f"{filtre_film_reco['title'].iloc[1]} ({filtre_film_reco['startYear'].iloc[1]})")
-    with titre_reco3:
-        st.subheader(f"{filtre_film_reco['title'].iloc[2]} ({filtre_film_reco['startYear'].iloc[2]})")
-
     film_reco1, film_reco2, film_reco3 = st.columns(3)
 
     with film_reco1:
+        st.subheader(f"{filtre_film_reco['title'].iloc[0]} ({filtre_film_reco['startYear'].iloc[0]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_reco['poster_path'].iloc[0], width=140)
 
@@ -443,6 +435,8 @@ def page_film():
             st.write(f"Note : {rating(filtre_film_reco['averageRating'].iloc[0])}")
         st.write(filtre_film_reco['overview'].iloc[0])
     with film_reco2:
+        st.subheader(f"{filtre_film_reco['title'].iloc[1]} ({filtre_film_reco['startYear'].iloc[1]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_reco['poster_path'].iloc[1], width=140)
 
@@ -453,6 +447,8 @@ def page_film():
             st.write(f"Note : {rating(filtre_film_reco['averageRating'].iloc[1])}")
         st.write(filtre_film_reco['overview'].iloc[1])
     with film_reco3:
+        st.subheader(f"{filtre_film_reco['title'].iloc[2]} ({filtre_film_reco['startYear'].iloc[2]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_reco['poster_path'].iloc[2], width=140)
 
@@ -484,16 +480,12 @@ def page_contributeur():
 
     st.title(" ")
     st.title(" ")
-    titre1, titre2, titre3 = st.columns(3)
-    with titre1:
-        st.subheader(f"{filtre_film_contri['title'].iloc[0]} ({filtre_film_contri['startYear'].iloc[0]})")
-    with titre2:
-        st.subheader(f"{filtre_film_contri['title'].iloc[1]} ({filtre_film_contri['startYear'].iloc[1]})")
-    with titre3:
-        st.subheader(f"{filtre_film_contri['title'].iloc[2]} ({filtre_film_contri['startYear'].iloc[2]})")
+    
     film1, film2, film3 = st.columns(3)
 
     with film1:
+        st.subheader(f"{filtre_film_contri['title'].iloc[0]} ({filtre_film_contri['startYear'].iloc[0]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_contri['poster_path'].iloc[0], width=140)
 
@@ -504,6 +496,8 @@ def page_contributeur():
             st.write(f"Note : {rating(filtre_film_contri['averageRating'].iloc[0])}")
         st.write(filtre_film_contri['overview'].iloc[0])
     with film2:
+        st.subheader(f"{filtre_film_contri['title'].iloc[1]} ({filtre_film_contri['startYear'].iloc[1]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_contri['poster_path'].iloc[1], width=140)
 
@@ -514,6 +508,8 @@ def page_contributeur():
             st.write(f"Note : {rating(filtre_film_contri['averageRating'].iloc[1])}")
         st.write(filtre_film_contri['overview'].iloc[1])
     with film3:
+        st.subheader(f"{filtre_film_contri['title'].iloc[2]} ({filtre_film_contri['startYear'].iloc[2]})")
+        st.title(" ")
         poster_path, infos = st.columns([1.5,3])
         poster_path.image(filtre_film_contri['poster_path'].iloc[2], width=140)
 

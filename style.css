@@ -22,6 +22,14 @@ p {
   p {
     font-size: 14px; /* Réduire la taille de la police pour les écrans plus petits */
   }
+
+  img, svg {
+    margin-left: 15vh;
+    margin-right: 15vh;
+  }
+  body{
+    text-align: center;
+  }
 }  
 
 .st-emotion-cache-z5fcl4{
@@ -39,11 +47,12 @@ p {
 .st-emotion-cache-10trblm{
     text-align: center;
 }
-img {
+img, svg {
     max-width: 100%; /* L'image ne peut pas dépasser la largeur de son conteneur parent */
     height: auto;
     vertical-align: middle;
     border-radius: 30px 10px 70px 10px;
+
 }
 .st-emotion-cache-1yiq2ps {
   top: -20vh;
