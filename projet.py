@@ -27,7 +27,7 @@ components.html(load_css("style.css"),height=0)
 #------------------------------------------------------------------------------------
 #                               Algo et Nettoyage
 #------------------------------------------------------------------------------------
-
+# création définition pour charger les affiches en local:
 def load_image_as_base64(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
@@ -38,7 +38,7 @@ def image(image_base64, picture_texte,width=100,height=100):
             <img src="data:image/png;base64,{image_base64}" alt={picture_texte} width={width}% height={height} padding= 0>
         </div>
     """
-
+# création de fonction pour les notes avg_rating:
 def rating(note):
     return "⭐️" if 0 < note <= 2 else "⭐️⭐️" if 2 < note <= 4 else "⭐️⭐️⭐️" if 4 < note <= 6 else "⭐️⭐️⭐️⭐️" if 6 < note <= 8 else "⭐️⭐️⭐️⭐️⭐️"
 
